@@ -1,9 +1,10 @@
 # Site wide configuration
 
-title:            Site Title
+title:            small data&#58;<br>big benefit
+title2:           Small data
 locale:           en_US
 url:              http://localhost:4000
-
+#url:             http://bennette.github.io
 
 # Jekyll configuration
 
@@ -26,30 +27,13 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
+  name: Walter Bennette
   avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email: 
-  disqus-shortname: 
-  twitter: #username
-  facebook: #username
-  google:
-    plus: #username
-    analytics: 
-    verify: 
-    ad-client: 
-    ad-slot: 
-  bing-verify: 
-  github: #username
-  stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
+  bio: "Data Mining<br>Operations Research"
+  email: wdbennette@gmail.com
+  facebook: wdbennette
+  stackoverflow: http://stackoverflow.com/users/628499/walter
+ 
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
